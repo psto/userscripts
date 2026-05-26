@@ -4,6 +4,8 @@ A collection of miscellaneous userscripts to enhance web functionality.
 
 ## Table of Contents
 
+- [Rapidgator Download Ready Notifier](#rapidgator-download-ready-notifier)
+
 ## Installation
 
 1. Install [Violentmonkey](https://github.com/violentmonkey/violentmonkey) extension for Firefox or Chrome
@@ -15,6 +17,8 @@ A collection of miscellaneous userscripts to enhance web functionality.
 
 ## Scripts
 
+### [Rapidgator Download Ready Notifier](scripts/rapidgator-notify/rapidgator-notify.user.js)
+Notifies when the Rapidgator countdown reaches zero, sending a desktop notification when the file is ready for download.
 
 ---
 
