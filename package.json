@@ -1,0 +1,28 @@
+{
+  "name": "userscripts",
+  "type": "module",
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.3.0",
+  "description": "A collection of my userscripts for GreasyFork",
+  "author": "me",
+  "license": "MIT",
+  "homepage": "https://github.com/psto/userscripts",
+  "bugs": "https://github.com/psto/userscripts/issues",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.0.0",
+    "eslint": "^10.4.0",
+    "lint-staged": "^17.0.5",
+    "pnpm": "^11.3.0",
+    "simple-git-hooks": "^2.13.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "scripts/**/*.js": "eslint --fix"
+  }
+}
