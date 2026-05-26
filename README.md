@@ -4,6 +4,7 @@ A collection of miscellaneous userscripts to enhance web functionality.
 
 ## Table of Contents
 
+- [Nitroflare Download Ready Notifier](#nitroflare-download-ready-notifier)
 - [Rapidgator Download Ready Notifier](#rapidgator-download-ready-notifier)
 
 ## Installation
@@ -16,6 +17,12 @@ A collection of miscellaneous userscripts to enhance web functionality.
 ---
 
 ## Scripts
+
+### [Nitroflare Download Ready Notifier](scripts/nitroflare-notify/nitroflare-notify.user.js)
+Notifies when the Nitroflare countdown reaches zero, sending a desktop notification when the file is ready for download.
+
+---
+
 
 ### [Rapidgator Download Ready Notifier](scripts/rapidgator-notify/rapidgator-notify.user.js)
 Notifies when the Rapidgator countdown reaches zero, sending a desktop notification when the file is ready for download.
